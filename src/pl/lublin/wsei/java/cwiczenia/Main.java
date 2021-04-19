@@ -19,3 +19,4 @@ public class /*definicja klasy public class Main*/ Main {
 
     }
 } 
+//hgcghcghcgchgjc
