@@ -7,7 +7,7 @@ import java.util.Locale;
 
 public class /*definicja klasy public class Main*/ Main {
 
-    public static String leftPad(String aText, char aChar, int aWidth)
+    public  String leftPad(String aText, char aChar, int aWidth)
     {
         String res = aText;
         for (int i = 0; i < aWidth * aText.length(); i++)
@@ -24,7 +24,7 @@ public class /*definicja klasy public class Main*/ Main {
         int num1;
         System.out.print("Podaj liczbę do przekonwertowania na typ szesnastkowy ");
         num1 = input.nextInt();
-        System.out.println("liczba " + num1 + " w:\nPostaci szesnastkowej to " + Integer.toHexString(num1) + "\nPostaci binarnej to " + Integer.toBinaryString(num1) );
+
         String hexNum = leftPad(Integer.toHexString(num1), '0', 3);
         String binNum = leftPad(Integer.toBinaryString(num1), '0', 1);
         System.out.println("liczba " + num1 + " w:\nPostaci szesnastkowej to " + hexNum.toUpperCase() + "\nPostaci binarnej to " + binNum.toUpperCase() );
