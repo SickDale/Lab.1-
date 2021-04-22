@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class /*definicja klasy public class Main*/ Main {
 
+
     public static void main(String[] args) /*
     *definicja metody public static void main*/{
         System.out.println("Hello Java world\n");
@@ -44,15 +45,15 @@ public class /*definicja klasy public class Main*/ Main {
         System.out.printf("Wynik dodawania %d + %d = %d%n",num1,num2,num1+num2);
          */
 
-//9
-        Scanner input = new Scanner (System.in);
-        int num1 = 0, num2 = 0;
-        do {
-            System.out.print("Podaj liczbę,które mam dodać:");
-            num1 = input.nextInt();
-            num2 = input.nextInt();
-            if((num1 == 0)|| (num2 == 0)) break;
-            System.out.printf("Wynik dodawania %d + %d = %d%n", num1,num2,num1 + num2);
-        } while (true);
+
+//10b
+        Scanner input = new Scanner(System.in);
+        int num1;
+        System.out.print("Podaj liczbę do przekonwertowania na typ szesnastkowy ");
+        num1 = input.nextInt();
+        System.out.println("liczba " + num1 + " w:\nPostaci szesnastkowej to " + Integer.toHexString(num1) + "\nPostaci binarnej to " + Integer.toBinaryString(num1) );
+
+//10c
+
     }
-} 
+}
