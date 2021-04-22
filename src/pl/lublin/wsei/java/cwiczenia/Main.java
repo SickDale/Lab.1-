@@ -7,7 +7,7 @@ import java.util.Locale;
 
 public class /*definicja klasy public class Main*/ Main {
 
-    public  String leftPad(String aText, char aChar, int aWidth)
+    private static String leftPad(String aText, char aChar, int aWidth)
     {
         String res = aText;
         for (int i = 0; i < aWidth * aText.length(); i++)
