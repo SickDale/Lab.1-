@@ -12,7 +12,7 @@ public class Main{
     public static void main(String[] args) {
         Account acc = new Account();
         acc.name = "Piotr Gołabek";
-        System.out.println(acc.getName());
+         System.out.println(acc.getName());
 
     }
 
