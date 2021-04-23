@@ -11,8 +11,9 @@ public class Main{
 
     public static void main(String[] args) {
         Account acc = new Account();
-        acc.name = "Piotr Gołabek";
+        acc.setName ("piotr gołabek");
          System.out.println(acc.getName());
+        System.out.printf("%s%n",Account.capitalize("StanisŁaw maruSARz"));
 
     }
 

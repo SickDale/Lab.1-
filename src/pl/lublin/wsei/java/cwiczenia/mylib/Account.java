@@ -1,19 +1,26 @@
 package pl.lublin.wsei.java.cwiczenia.mylib;
+import org.apache.commons.lang3.StringUtils;
+
 //12
 
 public class Account {
-    public String name;
-    public void setName(String name) {
-        this.name = name;
-    }
-    public String getName() {
-        return name;
-    }
-// public void setName(String name) {
-// this.name = name;
-// }
-//
-// public String getName() {
-//  return name;
-// }
+    private String name;
+
+ public static String capitalize(String aStr)
+ {
+  String[] tokens = StringUtils.split(aStr);
+  for(int i = 0; i < tokens.length; i++)
+   tokens[i] = StringUtils.capitalize(tokens[i]);
+  return StringUtils.join(tokens,' ');
+ }
+ public void setName(String name) {
+  this.name = capitalize(name);
+ }
+
+ public String getName() {
+ return name;
+ }
+
+
 }
+
