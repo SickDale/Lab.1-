@@ -1,9 +1,26 @@
 package pl.lublin.wsei.java.cwiczenia.mylib;
 
-public class StringFun {
 
+
+public class StringFun {
     public static boolean isPalindrome(String word) {
-        return false;
+
+    // char charWord[] = word.toCharArray();
+    // for(int i = charWord.length-1;)
+        boolean output;
+
+        String rev ="";
+
+        System.out.println(rev);
+        System.out.println(word);
+
+        if(rev == word){
+            output = true;
+        }else{
+            output = false;
+        }
+        System.out.println(output);
+        return output;
     }
 
     /*public static String Anarchize(String tekst) {
@@ -40,7 +57,7 @@ public class StringFun {
 
         return new String(ch);
     }
-    */
+
     public static String Decamelize(String sentence) {
 
         sentence = sentence.substring(0, 1).toLowerCase() + sentence.substring(1);
@@ -60,6 +77,8 @@ public class StringFun {
         decamelizeSentence = decamelizeSentence.substring(0, 1).toUpperCase() + decamelizeSentence.substring(1);
         return decamelizeSentence;
 
+    }*/
+
+
     }
 
-}
