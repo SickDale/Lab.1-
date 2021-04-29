@@ -7,6 +7,7 @@ public class Main {
      /*AnarchizeTest.main();*/
         /* CamelizeTest.main();*/
      //DecamelizeTest.main();
-        IsPalindromeTest.main();
+        //IsPalindromeTest.main();
+        ShuffleTest.main();
     }
 }
