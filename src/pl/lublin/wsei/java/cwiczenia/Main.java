@@ -7,6 +7,7 @@ public class Main {
     public static void main(String[] args) {
 
      /*AnarchizeTest.main();*/
-        CamelizeTest.main();
+        /* CamelizeTest.main();*/
+     DecamelizeTest.main();
     }
 }

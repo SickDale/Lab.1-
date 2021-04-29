@@ -1,8 +1,6 @@
 package pl.lublin.wsei.java.cwiczenia;
-import pl.lublin.wsei.java.cwiczenia.mylib.StringFun;
-
 import java.util.Scanner;
- //2a:
+//2a:
 
 public class AnarchizeTest {
     public static void main(){
@@ -11,7 +9,7 @@ public class AnarchizeTest {
         do{
             System.out.print("\nWprowadź tekst: ");
             tekst = scanner.nextLine();
-            System.out.print(StringFun.Anarchize(tekst));
+            //System.out.print(StringFun.Anarchize(tekst));
 
         }while(true);
     }
