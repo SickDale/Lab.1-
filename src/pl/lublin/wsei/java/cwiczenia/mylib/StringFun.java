@@ -1,8 +1,9 @@
 package pl.lublin.wsei.java.cwiczenia.mylib;
-import java.util.Random;
 
 
 public class StringFun {
+    public static void Shuffle(String haslo) {
+    }
     /* public static boolean isPalindrome(String word) {
 
      // char charWord[] = word.toCharArray();
@@ -78,7 +79,7 @@ public class StringFun {
          return decamelizeSentence;
 
      }*/
-    public static Object Shuffle(String sentence) {
+   /* public static Object Shuffle(String sentence) {
         Random random = new Random();
 
         int lenght;
@@ -100,5 +101,6 @@ public class StringFun {
             return shuffledSentence;
         }
         return null;
-    }
+    }*/
+
 }

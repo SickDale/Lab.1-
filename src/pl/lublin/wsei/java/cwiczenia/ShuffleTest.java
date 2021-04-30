@@ -1,7 +1,6 @@
 package pl.lublin.wsei.java.cwiczenia;
-import java.util.Scanner;
 
-public class ShuffleTest {
+/*public class ShuffleTest {
 
     private static pl.lublin.wsei.java.cwiczenia.mylib.StringFun StringFun;
 
@@ -18,4 +17,4 @@ public class ShuffleTest {
         while (true);
         return;
     }
-}
+}*/

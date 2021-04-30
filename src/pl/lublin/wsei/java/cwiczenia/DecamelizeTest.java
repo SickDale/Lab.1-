@@ -1,4 +1,4 @@
-package pl.lublin.wsei.java.cwiczenia;
+/*package pl.lublin.wsei.java.cwiczenia;
 
 
 import pl.lublin.wsei.java.cwiczenia.mylib.StringFun;
@@ -17,4 +17,4 @@ public class DecamelizeTest {
 
         }while(true);
     }
-}
+}*/
